@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM python:3.12.0b3-slim
+FROM python:3.13.0a6-slim
 
 WORKDIR /opt/microservices
 COPY app.py /opt/microservices/
